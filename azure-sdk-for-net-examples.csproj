@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>azure_sdk_for_net_examples</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Azure.ResourceManager.Resources" Version="1.0.0-preview.2"/>
+    <PackageReference Include="Azure.Identity" Version="1.4.0"/>
+  </ItemGroup>
+</Project>
